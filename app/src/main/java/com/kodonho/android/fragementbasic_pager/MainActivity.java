@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
 
-        BlankFragment bf = new BlankFragment();
+        ListFragment bf = new ListFragment();
         bf.setPager(pager);
         datas.add(bf);
-        GalleryFragment gf = new GalleryFragment();
+        DetailFragment gf = new DetailFragment();
         datas.add(gf);
 
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(), datas);

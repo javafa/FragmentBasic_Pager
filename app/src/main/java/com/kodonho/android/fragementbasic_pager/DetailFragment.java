@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class GalleryFragment extends Fragment {
-    public GalleryFragment() {
+public class DetailFragment extends Fragment {
+    public DetailFragment() {
         // Required empty public constructor
     }
 
